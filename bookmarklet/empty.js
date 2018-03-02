@@ -35,6 +35,10 @@
   for (let i = 0; i < as.length; i++) {
     as[i].style['color'] = 'rgba(0,0,0,0)';
   }
+  let spans = document.getElementsByTagName('span');
+  for (let i = 0; i < spans.length; i++) {
+    spans[i].style['color'] = 'rgba(0,0,0,0)';
+  }
   let imgs = document.getElementsByTagName('img');
   for (let i = 0; i < imgs.length; i++) {
     imgs[i].style['opacity'] = '0';
@@ -47,4 +51,5 @@
   for (let i = 0; i < svgs.length; i++) {
     svgs[i].style['opacity'] = '0';
   }
+
 })();
