@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Empty Internet</title>
+    <style media="screen">
+      body{
+        padding-top: 40px;
+        text-align: center;
+      }
+
+      .empty{
+        text-decoration: none;
+        background-color: #0000ff;
+        color: #fff;
+        font-size: 1.5em;
+        padding: 1px 10px 5px 10px;
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Empty Internet</h1>
+    <p>This Bookmarklet deletes the content and shows you the website in its
+        pure form. <br> </p>
+    <p>
+      Drag & drop the following to your bookmarks: <br> <br>
+    </p>
+        <a class="empty" href="javascript:(function () { var script = document.createElement('script'); script.src = 'file:///Users/Pitscher/Documents/Web \Projects/EmptyInternet/Bookmarklet/empty.js'; document.body.appendChild(script); })();">empty</a> <br>
+        <br>
+        <p>
+          Click on it to empty the site you are on.
+      </p>
+      <img src="http://lorempixel.com/400/200/" alt="">
+  </body>
+</html>
